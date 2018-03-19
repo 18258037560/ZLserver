@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="css/magic-check.css" />
+		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+		<title></title>
+
+	</head>
+
+	<body>
+		<p style="color: #3e97eb;" >颜色</p>
+		<form id="form">
+			<input class="magic-checkbox" type="checkbox" name="zw" id="r1" value="支付宝">
+			
+			<label for="r1">支付宝</label>
+
+			<input class="magic-radio" type="radio" name="zw" id="r2" value="微信"/>
+
+			<label for="r2">微信</label>
+
+		</form>
+<script>
+	$('#form').on('click','.magic-radio',function(){
+		
+		console.log($(this).val())
+	})
+</script>
+	</body>
+
+</html>

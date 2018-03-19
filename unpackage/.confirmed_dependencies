@@ -1,0 +1,9 @@
+{
+  "info.html": {
+    "resources": [
+      "css/info.css",
+      "js/jquery-2.1.0.js",
+      "css/magic-check.css"
+    ]
+  }
+}

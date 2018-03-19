@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+		<script type="text/javascript" src="js/public.js"></script>
+		<script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+		<script type="text/javascript" src="js/getOpenId.js" ></script>
+		<link rel="stylesheet" type="text/css" href="css/vfCode.css" />
+		<link rel="stylesheet" href="css/magic-check.css" />
+		<title>购买服务包</title>
+	</head>
+
+	<body>
+		<div class="card">
+			<div class="iconBox">
+				<div class="icon">
+					<img class="logo-f" src="img/logo-f.png" />
+				</div>
+			</div>
+			<div class="phoneBox">
+				<input type="tel" onKeypress="return (/[\d]/.test(String.fromCharCode(event.keyCode)))" oninput="if(value.length>11)value=value.slice(0,11)" autocomplete="off" class="phone" placeholder="请输入手机号码" />
+			</div>
+			<div class="vfCodeBox">
+				<input type="tel" onKeypress="return (/[\d]/.test(String.fromCharCode(event.keyCode)))" oninput="if(value.length>4)value=value.slice(0,6)" autocomplete="off" class="vfCode" placeholder="输入验证码" />
+			</div>
+			<p class="getVfCode">点击获取验证码</p>
+			<div class="nextBox">
+				<input type="button" class="next" value="下一步" />
+			</div>
+			<div class="protocol">
+				<div class="proBox">
+					<input type="checkbox" class="magic-checkbox" name="pro" id="pro" value="" />
+					<label for="pro">同意《芝兰产品包服务协议》</label>
+				</div>
+			</div>
+		</div>
+		<div class="navBox">
+			<div class="nav">
+				<div class="num1"></div>
+				<div class="num2"></div>
+				<div class="num1"></div>
+				<div class="num1"></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/vfCode.js"></script>
+	</body>
+
+</html>

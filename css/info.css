@@ -1,0 +1,313 @@
+html,
+body,
+div,
+span,
+p,
+label {
+	margin: 0;
+	padding: 0;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+input {
+	margin: 0;
+	padding: 0;
+}
+
+body,
+html {
+	width: 100%;
+	height: 93%;
+	padding-top: 7%;
+	background-color: rgb(45, 47, 59);
+}
+
+html {
+	font-size: 15px;
+}
+
+input {
+	box-shadow: none;
+}
+
+.card {
+	background-color: #FFFFFF;
+	width: 85%;
+	height: 92%;
+	margin: auto;
+	border-radius: 15px;
+}
+
+.info {
+	width: 87.5%;
+	height: 100%;
+	/*background-color: pink;*/
+	margin: auto;
+	overflow: hidden;
+}
+
+.mgtop {
+	margin-top: 5%;
+}
+
+.basicInfoBox {
+	width: 100%;
+	height: 13.7%;
+	/*background: lightskyblue;*/
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	position: relative;
+}
+
+.icon {
+	width: 15.6%;
+	height: 100%;
+	/*background: burlywood;*/
+	float: left;
+}
+
+.name {
+	width: 80%;
+	font-size: 0.8rem;
+	/*background: plum;*/
+	color: rgba(0, 0, 0, 0.2);
+	float: left;
+	height: 55%;
+	position: relative;
+}
+
+.posi {
+	position: absolute;
+	bottom: 0;
+	display: none;
+}
+
+.realName {
+	width: 80%;
+	height: 44%;
+	border: none;
+	outline: none;
+	float: left;
+	font-size: 1rem;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.pregnant {
+	width: 80%;
+	height: 100%;
+	/*background: red;*/
+	float: left;
+}
+
+.hBox {
+	/*background: yellow;*/
+	width: 4.5rem;
+	height: 1.5rem;
+	float: left;
+	margin-top: 17.5%;
+	-webkit-tap-highlight-color:transparent;
+}
+
+.nBox {
+	/*background: yellow;*/
+	width: 5.5rem;
+	height: 1.5rem;
+	float: right;
+	margin-top: 17.5%;
+	margin-right: 2rem;
+	-webkit-tap-highlight-color:transparent;
+}
+
+#pregnant1 {
+	float: left;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+#pregnant2 {
+	float: left;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+.label-pregnant-left {
+	float: right;	
+	/*background-color: lightcyan;*/
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0)!important;
+}
+
+.label-pregnant-right {
+	float: right;
+	/*background-color: hotpink;*/
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0)!important;
+}
+
+.nation {
+	width: 80%;
+	height: 100%;
+	/*background: red;*/
+	float: left;
+}
+
+.sBox {
+	/*background: yellow;*/
+	width: 4.5rem;
+	height: 1.5rem;
+	float: left;
+	margin-top: 17.5%;
+	-webkit-tap-highlight-color:transparent;
+}
+
+.bBox {
+	/*background: yellow;*/
+	width: 4.5rem;
+	height: 1.5rem;
+	float: right;
+	margin-top: 17.5%;
+	margin-right: 3rem;
+	-webkit-tap-highlight-color:transparent;
+}
+
+#nation1 {
+	float: left;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+#nation2 {
+	float: left;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+.label-nation-left {
+	float: right;
+	/*background-color: lightcyan;*/
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.label-nation-right {
+	float: right;
+	/*background-color:hotpink ;*/
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.idCard {
+	width: 80%;
+	font-size: 0.8rem;
+	/*background: plum;*/
+	color: rgba(0, 0, 0, 0.2);
+	float: left;
+	height: 55%;
+	position: relative;
+}
+
+.posit {
+	position: absolute;
+	bottom: 0;
+	display: none;
+}
+
+.realIdCard {
+	width: 80%;
+	height: 44%;
+	border: none;
+	outline: none;
+	float: left;
+	font-size: 1rem;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.address {
+	width: 80%;
+	font-size: 0.8rem;
+	/*background: plum;*/
+	color: rgba(0, 0, 0, 0.2);
+	float: left;
+	height: 55%;
+	position: relative;
+}
+
+.positi {
+	position: absolute;
+	bottom: 0;
+	display: none;
+}
+
+.realaddress {
+	width: 80%;
+	height: 44%;
+	border: none;
+	outline: none;
+	float: left;
+	font-size: 1rem;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.nextBox {
+	width: 100%;
+	height: 9.5%;
+	/*background: red;*/
+	text-align: center;
+	margin-top: 17%;
+}
+
+.next {
+	width: 71.9%;
+	height: 100%;
+	border: none;
+	outline: none;
+	/*background-color: rgb(6, 190, 189);*/
+	background-color: rgba(144,153,172,0.8);
+	border-radius: 25px;
+	font-size: 1.1rem;
+	color: #FFFFFF;
+}
+
+.imgName {
+	width: 0.73rem;
+	height: 1rem;
+	position: absolute;
+	left: 1rem;
+	bottom: 15%;
+}
+
+.imgPregnant {
+	width: 1.1rem;
+	height: 1rem;
+	position: absolute;
+	left: 1rem;
+	bottom: 15%;
+}
+
+.imgNation {
+	width: 1rem;
+	height: 1rem;
+	position: absolute;
+	left: 1rem;
+	bottom: 15%;
+}
+
+.imgIdcard {
+	width: 1.2rem;
+	height: 1rem;
+	position: absolute;
+	left: 1rem;
+	bottom: 15%;
+}
+
+.imgAddress {
+	width: 0.8125rem;
+	height: 1rem;
+	position: absolute;
+	left: 1rem;
+	bottom: 15%;
+}

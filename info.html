@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+		<script type="text/javascript" src="js/public.js" ></script>
+		<script type="text/javascript" src="js/getOpenId.js" ></script>
+		<link rel="stylesheet" type="text/css" href="css/info.css" />
+		<title>填写基本信息</title>
+	</head>
+
+	<body>
+		<div class="card">
+			<div class="info">
+				<div class="basicInfoBox mgtop">
+					<div class="icon">
+						<img class="imgName" src="img/nameIcon.png" />
+					</div>
+					<p class="name"><span class="posi">姓名</span></p>
+					<input type="text" placeholder="姓名" class="realName" />
+				</div>
+				<div class="basicInfoBox">
+					<div class="icon">
+						<img class="imgPregnant" src="img/pregnant.png" />
+					</div>
+					<div class="pregnant">
+						<div class="hBox">
+							<img src="img/notchecked.png" id="pregnant1" />
+							<span class="label-pregnant-left">备孕</span>
+						</div>
+
+						<div class="nBox">
+							<img src="img/notchecked.png" id="pregnant2" />
+							<span class="label-pregnant-right">已怀孕</span>
+						</div>
+					</div>
+				</div>
+				<div class="basicInfoBox">
+					<div class="icon">
+						<img class="imgNation" src="img/nation.png" />
+					</div>
+					<div class="nation">
+
+						<div class="sBox">
+							<img id="nation1" src="img/notchecked.png"/>
+							<span class="label-nation-left">汉族</span>
+						</div>
+
+						<div class="bBox">
+							<img id="nation2" src="img/notchecked.png"/>
+							<span class="label-nation-right">其他</span>
+						</div>
+
+					</div>
+				</div>
+				<div class="basicInfoBox">
+					<div class="icon">
+						<img class="imgIdcard" src="img/idcard.png" />
+					</div>
+					<p class="idCard"><span class="posit">身份证号码</span></p>
+					<input type="text" oninput="if(value.length>18)value=value.slice(0,18)" placeholder="身份证号码" class="realIdCard" />
+				</div>
+				<div class="basicInfoBox">
+					<div class="icon">
+						<img class="imgAddress" src="img/address.png" />
+					</div>
+					<p class="address"><span class="positi">地址信息</span></p>
+					<input type="text" placeholder="地址信息" class="realaddress" />
+				</div>
+				<div class="nextBox">
+					<button class="next" style="margin: auto;">下一步</button>
+				</div>
+
+			</div>
+		</div>
+		<script type="text/javascript" src="js/info.js"></script>
+	</body>
+</html>

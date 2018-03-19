@@ -1,0 +1,357 @@
+html,
+body,
+div,
+span,
+p,
+label {
+	margin: 0;
+	padding: 0;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+input {
+	margin: 0;
+	padding: 0;
+}
+
+body,
+html {
+	width: 100%;
+	height: 93%;
+	padding-top: 7%;
+	background-color: rgb(45, 47, 59);
+}
+
+html {
+	font-size: 15px;
+}
+
+input {
+	box-shadow: none;
+}
+
+.card {
+	background-color: #FFFFFF;
+	width: 85%;
+	height: 92%;
+	margin: auto;
+	border-radius: 15px;
+}
+
+.info {
+	width: 87.5%;
+	height: 100%;
+	/*background-color: pink;*/
+	margin: auto;
+	overflow: hidden;
+}
+
+.mgtop {
+	margin-top: 5%;
+}
+
+.basicInfoBox {
+	width: 100%;
+	height: 13.7%;
+	/*background: lightskyblue;*/
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	position: relative;
+} 
+
+.icon {
+	width: 15.6%;
+	height: 100%;
+	/*background: burlywood;*/
+	float: left;
+}
+
+.name {
+	width: 80%;
+	font-size: 0.8rem;
+	/*background: plum;*/
+	color: rgba(0, 0, 0, 0.2);
+	float: left;
+	height: 55%;
+	position: relative;
+}
+
+.posi {
+	position: absolute;
+	bottom: 0;
+}
+
+.hostital {
+	width: 80%;
+	height: 44%;
+	border: none;
+	outline: none;
+	float: left;
+	font-size: 1rem;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	/*background: pink;*/
+	position: relative;
+}
+
+.idCard {
+	width: 80%;
+	font-size: 0.8rem;
+	/*background: plum;*/
+	color: rgba(0, 0, 0, 0.2);
+	float: left;
+	height: 55%;
+	position: relative;
+}
+
+.posit {
+	position: absolute;
+	bottom: 0;
+}
+
+.doctor {
+	width: 80%;
+	height: 44%;
+	border: none;
+	outline: none;
+	float: left;
+	font-size: 1rem;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	/*background: hotpink;*/
+	position: relative;
+}
+
+.completeBox {
+	width: 100%;
+	height: 9.5%;
+	/*background: red;*/
+	text-align: center;
+	margin-top: 75%;
+}
+
+.complete {
+	width: 80%;
+	height: 100%;
+	border: none;
+	outline: none;
+	/*background-color: rgb(6, 190, 189);*/
+	background-color: rgba(144,153,172,0.8);
+	border-radius: 25px;
+	font-size: 1.1rem;
+	color: #FFFFFF;
+}
+
+.previousBox {
+	width: 100%;
+	height: 9.5%;
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.previous {
+	width: 80%;
+	height: 100%;
+	border: none;
+	outline: none;
+	border-radius: 25px;
+	font-size: 1.1rem;
+	border: 1px solid rgb(6, 190, 189);
+	color: rgb(6, 190, 189);
+	background: #FFFFFF;
+}
+
+.imghospital{
+	width: 1.13rem;
+	height: 1rem;
+	position: absolute;
+	left: 1rem;
+	bottom: 0.8rem;
+}
+
+.imgdoctor{
+	width: 0.93rem;
+	height: 1rem;
+	position: absolute;
+	left: 1rem;
+	bottom: 0.8rem;
+}
+
+.hosName{
+	position: absolute;
+	left: 0;
+	bottom: 0.6rem;
+	color: rgba(0,0,0,0.2);
+}
+
+.hosChoose{
+	position: absolute;
+	right: 1.5rem;
+	bottom: 0.6rem;
+}
+
+.docName{
+	position: absolute;
+	left: 0;
+	bottom: 0.6rem;
+	color: rgba(0,0,0,0.2);
+}
+
+.docChoose{
+	position: absolute;
+	right: 1.5rem;
+	bottom: 0.6rem;
+}
+
+
+.search_hospital {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #FFFFFF;
+  display: none;
+}
+
+.search_box {
+  width: 100%;
+  height: 2.1rem;
+  padding-top: 0.4rem;
+  background: -webkit-linear-gradient(left, #B7CE63, #06BEBD);
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #B7CE63, #06BEBD);
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #B7CE63, #06BEBD);
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, #B7CE63, #06BEBD);
+  -webkit-user-select: none;
+}
+.search_box .search_key {
+  width: 90%;
+  height: 1.7rem;
+  margin: auto;
+}
+.search_box .search_key .search_left {
+  width: 80%;
+  height: 1.5rem;
+  background: #FFFFFF;
+  padding: 0.23rem 0 0 0.5rem;
+  float: left;
+}
+.search_box .search_key .search_left #search {
+  margin: 0.15rem 0.1rem 0 0;
+  float: left;
+}
+.search_box .search_key .search_left #ipt {
+  float: left;
+  width: 90%;
+  border: none;
+  padding: 0.1rem;
+  outline: none;
+}
+.search_box .search_key .search_right {
+  float: right;
+  width: 15%;
+  height: 100%;
+  line-height: 1.7rem;
+  text-align: center;
+  color: #436781;
+  -webkit-user-select: none;
+}
+
+.search_hospital {
+  /*display: none;*/
+}
+
+.hospital_list_box {
+  width: 100%;
+  height: 100%;
+}
+
+.hospital_list {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f4f4f4;
+}
+
+.list {
+  list-style: none;
+  height: 3rem;
+  width: 97%;
+  line-height: 3rem;
+  border-bottom: 1px solid #f4f4f4;
+  color: #1a1921;
+  white-space: nowrap;
+  overflow-x: auto;
+  -webkit-user-select: none;
+  float: left;
+  padding-left: 3%;
+}
+
+.bigBox{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color:rgba(255,255,255,0.3) ;
+	display: none;
+}
+
+.doctor_listBox{
+	position: fixed;
+	width: 100%;
+	height: 15rem;
+	/*background: yellowgreen;*/
+	background-color: #FFFFFF;
+	bottom: 0;
+	overflow: auto;
+	padding-top: 2rem;
+}
+
+.cancel{
+	width: 98%;
+	padding-right: 2%;
+	text-align: right;
+	height: 2rem;
+	line-height: 2rem;
+	/*border-top: 1px solid #000000;*/
+	border-bottom: 1px solid #f4f4f4;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*background: red;*/
+	margin-bottom:2rem ;
+}
+
+.doctor_list{
+	width: 100%;
+	height: 15rem;
+	overflow: auto;
+}
+
+.docList {
+  list-style: none;
+  height: 3rem;
+  width: 97%;
+  line-height: 3rem;
+  border-bottom: 1px solid #f4f4f4;
+  color: #1a1921;
+  white-space: nowrap;
+  overflow-x: auto;
+  -webkit-user-select: none;
+  float: left;
+  padding-left: 3%;
+}

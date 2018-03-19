@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+		<script type="text/javascript" src="js/getOpenId.js" ></script>
+		<script type="text/javascript" src="js/public.js" ></script>
+		<link rel="stylesheet" type="text/css" href="css/payrecord.css" />
+		<link rel="stylesheet" href="css/magic-check.css" />
+		<title>记录</title>
+	</head>
+
+	<body>
+		<div class="card">
+			<div class="waveBox">
+				<img class="wave" src="img/wave.png"/>
+				<img class="logo" src="img/logo.png"/>
+				<div class="frequency">
+					<p class="numberBox"><span class="number">0</span>/5</p>
+					<p class="remain">剩余次数</p>
+				</div>
+			</div>
+			<div class="contentBox">
+				<div class="childBox">
+					<p class="name">姓名</p>
+					<p class="relName"></p>
+				</div>
+				
+				<div class="childBox">
+					<p class="name">手机号码</p>
+					<p class="phone"></p>
+				</div>
+				
+				<div class="childBox">
+					<p class="name">名族</p>
+					<p class="nation"></p>
+				</div>
+				
+				<div class="childBox two">
+					<p class="name">地址信息</p>
+					<p class="address"></p>
+				</div>
+								
+				<div class="childBox two">
+					<p class="name">医院</p>
+					<p class="hospital"></p>
+				</div>
+								
+				<div class="childBox">
+					<p class="name">医生</p>
+					<p class="doctor"></p>
+				</div>
+				
+				<div class="childBox">
+					<p class="name">支付日期</p>
+					<p class="date"></p>
+				</div>
+				<div class="childBox">
+					<p class="name">金额</p>
+					<p class="money"></p>
+				</div>
+				
+				<div class="childBox"></div>
+				<p class="askRecord">咨询记录</p>
+				<script class="tmp" type="text/html">
+					<p class="word">{{date}}</p>
+				</script>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/payrecord.js" ></script>
+	</body>
+
+</html>

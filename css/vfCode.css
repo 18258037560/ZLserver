@@ -1,0 +1,257 @@
+html,
+body,
+div,
+span,
+p,
+label {
+	margin: 0;
+	padding: 0;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+body,
+html {
+	width: 100%;
+	height: 95%;
+	padding-top: 3%;
+	background-color: rgb(45, 47, 59);
+	/*background: pink;*/
+}
+
+input {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 14px;
+}
+
+input[type=button] {
+	-webkit-appearance: none;
+	outline: none
+}
+
+.card {
+	background-color: #FFFFFF;
+	width: 85%;
+	height: 92%;
+	margin: auto;
+	border-radius: 15px;
+	/*background: greenyellow;*/
+}
+
+.iconBox {
+	width: 100%;
+	height: 42%;
+	background: #FFFFFF;
+	/*border-top-right-radius:15px;
+	border-top-left-radius:15px;*/
+	border-radius: 15px;
+	display: -webkit-box;
+	/* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;
+	/* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;
+	/* TWEENER - IE 10 */
+	display: -webkit-flex;
+	/* NEW - Chrome */
+	display: flex;
+	/* NEW, Spec - Opera 12.1, Firefox 20+ */
+	justify-content: center;
+	align-items: center;
+}
+
+.icon {
+	width: 28.125%;
+	height: 42%;
+	/*background-color: #3E97EB;*/
+	/*background-color: red;*/
+}
+
+.logo-f {
+	width: 100%;
+	height: 100%;
+}
+
+.phoneBox {
+	width: 100%;
+	height: 8.8%;
+	/*background: deepskyblue;*/
+	display: -webkit-box;
+	/* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;
+	/* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;
+	/* TWEENER - IE 10 */
+	display: -webkit-flex;
+	/* NEW - Chrome */
+	display: flex;
+	/* NEW, Spec - Opera 12.1, Firefox 20+ */
+	justify-content: center;
+}
+
+.phone {
+	border: none;
+	outline: none;
+	width: 75%;
+	height: -moz-calc(100% - 0.2rem);
+	height: -webkit-calc(100% - 0.2rem);
+	height: calc(100% - 0.2rem);
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 35px;
+	text-align: center;
+	font-size: 1rem;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-appearance: none;
+}
+
+.phone:focus{
+	border: 1px solid rgb(45, 47, 59);
+}
+
+.vfCodeBox {
+	margin-top: 5.5%;
+	width: 100%;
+	height: 8.8%;
+	/*background: deepskyblue;*/
+	display: -webkit-box;
+	/* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;
+	/* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;
+	/* TWEENER - IE 10 */
+	display: -webkit-flex;
+	/* NEW - Chrome */
+	display: flex;
+	/* NEW, Spec - Opera 12.1, Firefox 20+ */
+	justify-content: center;
+}
+
+.vfCode {
+	border: none;
+	outline: none;
+	width: 75%;
+	height: -moz-calc(100% - 0.2rem);
+	height: -webkit-calc(100% - 0.2rem);
+	height: calc(100% - 0.2rem);
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 35px;
+	text-align: center;
+	font-size: 1rem;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-appearance: none;
+}
+
+.vfCode:focus{
+	border: 1px solid rgb(45, 47, 59);
+	color: rgb(45, 47, 59);
+}
+
+.getVfCode {
+	text-align: center;
+	margin-top: 1.5rem;
+	/*background-color: aquamarine;*/
+	color: rgb(237, 85, 100);
+	-webkit-tap-highlight-color: transparent;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	tap-highlight-color: rgba(0, 0, 0, 0);
+	font-size: 0.9rem;
+}
+
+.nextBox {
+	margin-top: 1.5rem;
+	width: 100%;
+	height: 3.5rem;
+	/*background: deepskyblue;*/
+	display: -webkit-box;
+	/* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;
+	/* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;
+	/* TWEENER - IE 10 */
+	display: -webkit-flex;
+	/* NEW - Chrome */
+	display: flex;
+	/* NEW, Spec - Opera 12.1, Firefox 20+ */
+	justify-content: center;
+}
+
+.next {
+	border: none;
+	outline: none;
+	width: 71.9%;
+	height: 100%;
+	border-radius: 35px;
+	text-align: center;
+	/*background-color: rgb(6, 190, 189);*/
+	background-color: rgba(144,153,172,0.8);
+	color: #FFFFFF;
+	font-size: 1.2rem;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+
+/*p{
+	line-height: 0;
+}*/
+
+.protocol {
+	width: 100%;
+	height: 3.2%;
+	display: -webkit-box;
+	/* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;
+	/* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;
+	/* TWEENER - IE 10 */
+	display: -webkit-flex;
+	/* NEW - Chrome */
+	display: flex;
+	/* NEW, Spec - Opera 12.1, Firefox 20+ */
+	justify-content: center;
+	margin-top: 10px;
+	color: rgb(144, 153, 172);
+}
+
+label {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	font-size: 0.8rem;
+}
+
+.navBox {
+	width: 100%;
+	min-height: 4rem;
+	height: 14%;
+	/*background-color: red!important;*/
+	background-color: rgb(45, 47, 59);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav {
+	width: 25%;
+	/*background-color: pink;*/
+	background-color: rgb(45, 47, 59);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.num2 {
+	width: 15%;
+	height: 2.5px;
+	background: #FFFFFF;
+}
+
+.num1 {
+	width: 15%;
+	height: 2.5px;
+	background: rgba(255,255,255,0.3);
+}

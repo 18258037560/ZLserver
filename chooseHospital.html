@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+		<script type="text/javascript" src="js/getOpenId.js" ></script>
+		<link rel="stylesheet" type="text/css" href="css/chooseHospital.css" />
+		<link rel="stylesheet" href="css/magic-check.css" />
+		<script type="text/javascript" src="js/public.js"></script>
+		<title>选择医生</title>
+	</head>
+
+	<body>
+		<div class="card">
+			<div class="info">
+				<div class="basicInfoBox mgtop">
+					<div class="icon">
+						<img class="imghospital" src="img/hospital.png" />
+					</div>
+					<p class="name"><span class="posi"></span></p>
+					<div class="hostital">
+						<span class="hosName">医院</span>
+						<span class="hosChoose">请选择</span>
+					</div>
+				</div>
+
+				<div class="basicInfoBox">
+					<div class="icon">
+						<img class="imgdoctor" src="img/doctor.png" />
+					</div>
+					<p class="idCard"><span class="posit"></span></p>
+					<div class="doctor">
+						<span class="docName">医生</span>
+						<span class="docChoose">请选择</span>
+					</div>
+				</div>
+				<div class="completeBox">
+					<button class="complete" style="margin: auto;">完成</button>
+				</div>
+
+				<div class="previousBox">
+					<button class="previous" style="margin: auto;">上一步</button>
+				</div>
+			</div>
+		</div>
+		<div class="search_hospital">
+			<div class="search_box">
+				<div class="search_key">
+					<div class="search_left">
+						<img id="search" src="img/search.png" />
+						<input type="text" name="" id="ipt" value="" placeholder="搜索关键词" />
+					</div>
+					<p class="search_right">取消</p>
+				</div>
+			</div>
+			<div class="hospital_list_box">
+				<div class="hospital_list">
+					
+				</div>
+			</div>
+		</div>
+		<div class="bigBox">
+			<div class="doctor_listBox">
+				<p class="cancel">取消</p>
+				<div class="doctor_list">
+
+				</div>
+			</div>
+		</div>
+<script type="text/javascript" src="js/chooseHospital.js"></script>
+	</body>
+
+</html>

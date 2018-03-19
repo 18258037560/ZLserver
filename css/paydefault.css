@@ -1,0 +1,312 @@
+html,
+body,
+div,
+span,
+p,
+input,
+label {
+	margin: 0;
+	padding: 0;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+body,
+html {
+	width: 100%;
+	height: 93%;
+	padding-top: 7%;
+	background-color: rgb(45, 47, 59);
+}
+
+html {
+	font-size: 14px;
+}
+input{
+	box-shadow: none;
+}
+.card {
+	background-color: #FFFFFF;
+	width: 85%;
+	height: 92%;
+	margin: auto;
+	border-radius: 15px;
+}
+
+.moneyBg {
+	width: 100%;
+	height: 52%;
+	background: #FFFFFF;
+	/*background: yellow;*/
+	border-top-right-radius:15px;
+	border-top-left-radius:15px;
+	display: -webkit-box;
+	/* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;
+	/* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;
+	/* TWEENER - IE 10 */
+	display: -webkit-flex;
+	/* NEW - Chrome */
+	display: flex;
+	/* NEW, Spec - Opera 12.1, Firefox 20+ */
+	justify-content: center;
+	align-items: center;
+}
+
+.logoBox{
+	width: 10rem;
+	height: 12rem;
+	/*background-color:darkseagreen ;*/
+	text-align: center;
+	
+}
+
+.imgBox{
+	width: 9rem;
+	height: 9rem;
+	/*background: red;*/
+	margin: auto;
+}
+
+.imgLogo{
+	width: 100%;
+	height: 100%;
+}
+
+.moneyNum{
+	width: 100%;
+	margin-top:1.3rem ;
+	font-size: 1.6rem;
+}
+
+
+.AlipayBox {
+	width: 100%;
+	height: 4rem;
+	/*background: deepskyblue;*/
+	display: -webkit-box;
+	/* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;
+	/* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;
+	/* TWEENER - IE 10 */
+	display: -webkit-flex;
+	/* NEW - Chrome */
+	display: flex;
+	/* NEW, Spec - Opera 12.1, Firefox 20+ */
+	justify-content: center;
+	margin-top: 3%;
+}
+
+.Alipay {
+	width: 87.5%;
+	height: -moz-calc(100% - 0.2rem);
+	height: -webkit-calc(100% - 0.2rem);
+	height: calc(100% - 0.2rem);
+	/*border: 0.1rem solid rgb(45, 47, 59);*/
+	/*background-color: aquamarine;*/
+	display: -webkit-box;
+	/* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;
+	/* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;
+	/* TWEENER - IE 10 */
+	display: -webkit-flex;
+	/* NEW - Chrome */
+	display: flex;
+	/* NEW, Spec - Opera 12.1, Firefox 20+ */
+	align-items: center;
+	-webkit-tap-highlight-color:transparent;
+}
+
+.conLineA{
+	width: 100%;
+	height: 2.5rem;
+	/*background: pink;*/
+}
+
+.AlipayLogo{
+	width: 2.5rem;
+	height: 2.5rem;
+	float: left;
+	/*background: greenyellow;*/
+	margin-left: 1rem;
+}
+
+.AlipayImg{
+	width: 100%;
+	height: 100%;
+}
+
+
+.alipayWord{
+	float: left;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	/*background: red;*/
+	margin-left: 2rem;
+}
+
+.radioImgBoxA{
+	width: 1.5rem;
+	height: 1.5rem;
+	/*background: red;*/
+}
+
+.radioImgA{
+	width: 100%;
+	height: 100%;
+}
+
+.rBoxA{
+	width: 1.5rem;
+	height: 2.5rem;
+	/*background: red;*/
+	float: right;
+	display: -webkit-box;
+	/* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;
+	/* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;
+	/* TWEENER - IE 10 */
+	display: -webkit-flex;
+	/* NEW - Chrome */
+	display: flex;
+	/* NEW, Spec - Opera 12.1, Firefox 20+ */
+	align-items: center;
+	margin-right: 2rem;
+}
+
+.WeChat_PaymentBox {
+	width: 100%;
+	height: 4rem;
+	/*background: pink;*/
+	display: -webkit-box;
+	/* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;
+	/* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;
+	/* TWEENER - IE 10 */
+	display: -webkit-flex;
+	/* NEW - Chrome */
+	display: flex;
+	/* NEW, Spec - Opera 12.1, Firefox 20+ */
+	justify-content: center;
+}
+
+.WeChat_Payment {
+	width: 87.5%;
+	height: -moz-calc(100% - 0.2rem);
+	height: -webkit-calc(100% - 0.2rem);
+	height: calc(100% - 0.2rem);
+	/*border: 0.1rem solid rgb(45, 47, 59);*/
+	/*background-color: aquamarine;*/
+	display: -webkit-box;
+	/* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;
+	/* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;
+	/* TWEENER - IE 10 */
+	display: -webkit-flex;
+	/* NEW - Chrome */
+	display: flex;
+	/* NEW, Spec - Opera 12.1, Firefox 20+ */
+	align-items: center;
+	-webkit-tap-highlight-color:transparent;
+}
+
+.conLineW{
+	width: 100%;
+	height: 2.5rem;
+	/*background: pink;*/
+}
+
+.WeChat_PaymentLogo{
+	width: 2.5rem;
+	height: 2.12rem;
+	float: left;
+	/*background: greenyellow;*/
+	margin-left: 1rem;
+}
+
+.WeChat_PaymentImg{
+	width: 100%;
+	height: 100%;
+}
+
+
+.WeChat_PaymentWord{
+	float: left;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	/*background: red;*/
+	margin-left: 2rem;
+}
+
+.radioImgBoxW{
+	width: 1.5rem;
+	height: 1.5rem;
+	/*background: red;*/
+}
+
+.radioImgW{
+	width: 100%;
+	height: 100%;
+}
+
+.rBoxW{
+	width: 1.5rem;
+	height: 2.5rem;
+	/*background: red;*/
+	float: right;
+	display: -webkit-box;
+	/* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;
+	/* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;
+	/* TWEENER - IE 10 */
+	display: -webkit-flex;
+	/* NEW - Chrome */
+	display: flex;
+	/* NEW, Spec - Opera 12.1, Firefox 20+ */
+	align-items: center;
+	margin-right: 2rem;
+}
+
+
+.newPayBox {
+	margin-top: 10%;
+	width: 100%;
+	height: 9.5%;
+	/*background: deepskyblue;*/
+	display: -webkit-box;
+	/* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;
+	/* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;
+	/* TWEENER - IE 10 */
+	display: -webkit-flex;
+	/* NEW - Chrome */
+	display: flex;
+	/* NEW, Spec - Opera 12.1, Firefox 20+ */
+	justify-content: center;
+}
+
+.newPay {
+	border: none;
+	outline: none;
+	width: 71.9%;
+	height: 100%;
+	border-radius: 25px;
+	text-align: center;
+	background-color: rgb(6, 190, 189);
+	color: #FFFFFF;
+	font-size: 1.2rem;
+}
+
+
